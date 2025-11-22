@@ -31,22 +31,26 @@
 ```bash
 git clone https://github.com/yourusername/QuizFlash.git
 ```
-```bash
+
 2. Navigate to the project directory:
+```bash
 cd QuizFlash
 ```
-```bash
+
 3. Get Flutter packages:
+```bash
 flutter pub get
 ```
-```bash
+
 4. Run the app:
+```bash
 flutter run
 ```
 # How to Use the Quiz App
 
 1. 🚀 **Launch the app**
-2. 🔑 **Enter your API key**
+2. 🔑 **Enter your API key** ( changed in lib -> views -> GenerateQuizScreen)
 3. 🎯 **Choose a topic** for the quiz
 4. ✍️ **Answer the questions**
 5. 🃏 **Review your quiz history** in flashcard format to remember questions and answers
+
