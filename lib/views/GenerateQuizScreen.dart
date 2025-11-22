@@ -10,7 +10,7 @@ class GenerateQuizScreen extends StatefulWidget {
 class _GenerateQuizScreenState extends State<GenerateQuizScreen> {
   String _quizText = 'Cliquez sur "Générer un Quiz" pour commencer';
   bool _isLoading = false;
-  final String _apiKey = 'AIzaSyCsmjFBj35iuQS4LLk-4RYKHX23KeROqEU'; // Remplacez par votre clé API valide
+  final String _apiKey = ''; // Remplacez par votre clé API valide
   String _userQuestion = '';
   String _generatedQuestion = ''; // Variable pour stocker la question générée par l'API
   TextEditingController _responseController = TextEditingController();
@@ -229,3 +229,4 @@ class _GenerateQuizScreenState extends State<GenerateQuizScreen> {
     );
   }
 }
+
